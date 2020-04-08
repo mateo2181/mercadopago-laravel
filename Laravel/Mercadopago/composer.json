@@ -1,0 +1,27 @@
+{
+    "name": "laravel/mercadopago",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateo Merlo",
+            "email": "mateomerlo@gmail.com"
+        }
+    ],
+    "require": {
+        "mercadopago/dx-php": "2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Mercadopago\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravel\\Mercadopago\\Providers\\MPServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
